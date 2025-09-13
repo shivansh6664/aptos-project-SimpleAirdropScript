@@ -1,0 +1,16 @@
+[package]
+name = "SimpleAirdropScript"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0xf5b7672a6f22298ecc3f1b881dd25093b56cfaffcc10412194cf70cd5fc37232"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
